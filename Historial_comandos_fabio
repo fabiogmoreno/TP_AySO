@@ -1,0 +1,135 @@
+ssh-keygen
+cat .ssh/id_rsa.pub
+pwd
+cd
+ls
+mkdir repogit
+cd repogit/
+ls -la
+git --version
+sudo apt install git
+git --version
+git clone git@github.com:fabiogmoreno/TP_AySO.git
+pwd
+ls -la
+cd 29sept/
+git clone git@github.com:fabiogmoreno/TP_AySO.git
+cd TP_AySO/
+cd TP_AySO
+history
+cd
+cd repogit
+ls
+cd UTN-FRA_UTN-FRA_SO_onBording
+git clone git@github.com:fabiogmoreno/TP_AySO.git
+pwd
+ls -l
+cd TP_AySO/
+cd TP_AySO
+ssh-keygen
+ls
+pwd
+cat .ssh/id_rsa.pub
+cd
+pwd
+mkdir repogit
+cd repogit
+ls -la
+git clone git@github.com:fabiogmoreno/TP_AySO.git
+pwd
+ls -la
+cd TP_AySO
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+-i grep home_url /etc/os-release
+grep -i grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git status
+git add .
+git status
+git config --global.user.email "gabrielgraciela@yahoo.com"
+git config --global user.email "gabrielgraciela@yahoo.com"
+git config --global user.name "fabiogmoreno"
+git commit -m "ADO: agrego 1er ejersicio sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo | tail -n1
+grep -i "model name" /proc/cpuinfo | head -n1
+grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add datos_usuario.txt
+git status
+git commit -m "feat: Añaniendo información de CPU"
+exit
+clear
+grep -v
+grep --help
+cat /etc/paswb
+cat /etc/passwb
+cat /etc/passwv
+cat /etc/passwr
+cat /etc/passwb
+man grep
+cat /etc/
+cat etc
+cat /etc
+cat /etc/passwd
+grep -v nologin /etc/passwd
+exit
+clear
+ls -l
+cd repogit
+history
+clar
+clear
+grep -v nologin /etc/passwd | head | sort -k 7
+grep -v nologin /etc/passwd | head | sort -k 7 >> lista_ordenada
+ls -la
+git add lista_ordenada
+history
+cd TP_AySO
+git add lista_ordenada
+cat lista_ordenada
+man lista_ordenada
+ls -la
+grep -v nologin /etc/passwd | head | sort -k 7 >> lista_ordenada
+ls -la
+git add lista_ordenada
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdum" > comando_dump_net
+git add comando_dump_net
+git status
+git commit -m "ADD: Comando para capturar el trafico de red"
+cat <<FIN>> README.md
+Alumno: Fabio
+Divisio: 114
+Turno: M
+FIN
+
+git add README.md
+git status
+git commit -m "feat: modifico el readme"
+pwd
+cd
+pwd
+ls -la
+history -a
+cd repogit
+ls -la
+cd TP_AySO
+tree
+ls -la
+git status
+history -a
+history
+history -a >> $HOME/.bash_history
